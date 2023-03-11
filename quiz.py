@@ -36,5 +36,5 @@ if answer.lower() == "has seen":
 else:
     print("Incorrect!")
 
-print("You got " + str(score) + " questions correct!")
-print("You got " + str((score / 4) * 100) + "%.")
+print("You got", score, "questions correct!")
+print("You got", (score / 4) * 100, "%.")
