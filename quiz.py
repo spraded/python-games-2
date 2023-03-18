@@ -23,7 +23,7 @@ else:
     print("Incorrect!")
 
 answer = input("She _____ _______ (not quit) a job before. ")
-if answer.lower() == "hasn't quit":
+if answer.lower() == "hasn't quit" or answer.lower() == "has not quit":
     print('Correct!')
     score += 1
 else:
